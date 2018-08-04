@@ -50,8 +50,8 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost'; //
 $db['default']['username'] = 'root'; //telecompolice_user
-$db['default']['password'] = ''; //Yv$p1T7OR]d6
-$db['default']['database'] = 'blankadmin'; //telecompolice_webdb
+$db['default']['password'] = 'root'; //Yv$p1T7OR]d6
+$db['default']['database'] = 'b_cDB'; //telecompolice_webdb
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

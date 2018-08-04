@@ -279,7 +279,7 @@
             success:function(data){
                 toasmsg('success',msg);
                 //location.reload();
-                //location.href="<?php echo site_url('article/index/?m='.$m.'&p='.$p) ?>";
+                //location.href="<?php //echo site_url('article/index/?m='.$m.'&p='.$p) ?>";
                 console.log("success");
                 console.log(data);
             },
@@ -287,7 +287,7 @@
                 console.log("error");
                 console.log(data);
                 //location.reload();
-                //location.href="<?php echo site_url('article/index/?m='.$m.'&p='.$p) ?>";
+                //location.href="<?php //echo site_url('article/index/?m='.$m.'&p='.$p) ?>";
 
             }
         });
@@ -374,8 +374,9 @@
 
                     if(data.article_id!='' && data.article_id!=null){
                         uploads(data.article_id,formdata,data.msg);
+                        console.log(formdata);
                         // toasmsg('success',data.msg);
-                        // location.href='<?php echo site_url("article/index?m=".$m.'&p='.$p) ?>';
+                        // location.href='<?php //echo site_url("article/index?m=".$m.'&p='.$p) ?>';
                     }else{
                         toasmsg('error',data.msg);
                     }
