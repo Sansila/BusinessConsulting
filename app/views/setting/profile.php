@@ -129,9 +129,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                    </form> 
+                            </div>  
+                        </form> 
                     <div style="clear:both"></div>               
                 </div>
             </div>

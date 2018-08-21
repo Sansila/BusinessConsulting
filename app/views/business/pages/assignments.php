@@ -1,5 +1,7 @@
 <div id="pnlBody" class="clearfix">
-    <section id="S2009" class="divSection divSection0 divSection1176 container-fluid" data-speed="6" data-type="background">
+    <?php $topbanner = $this->db->query("SELECT * FROM tblarticle where article_id= 104")->row(); ?>
+    <?php echo $topbanner->content; ?>
+    <!-- <section id="S2009" class="divSection divSection0 divSection1176 container-fluid" data-speed="6" data-type="background">
         <div class="row">
             <div class="col-sm-12 divPanelDrop">
                 <div class="divContainer divContainerStandard divContainer172 wow fadeIn clearfix" id="CA2021" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="0" data-wow-iteration="1">
@@ -14,7 +16,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="S2010" class="divSection divSection0 divSection81 container-fluid" data-speed="6" data-type="background">
         <div class="container">
             <div class="row">
@@ -80,7 +82,9 @@
                     
                     <div class="divContainer divContainerStandard divContainer1 clearfix" id="CA2026" style="" >
                         <div class="divSdCmsJumbotron1 divSdCmsJumbotron1s">
-                            <p style="text-align:center;"><em>Bankruptcy is not the only choice. This is an important decision to be made in consultation with both your legal and financial advisors. Sherwood Partners is able to offer other possibilities and solutions.</em></p>
+                            <?php $thirdBlog = $this->db->query("SELECT * FROM tblarticle where article_id= 105")->row(); ?>
+    
+                            <p style="text-align:center;"><?php echo $thirdBlog->content; ?></p>
                         </div>
                     </div>
                 </div>

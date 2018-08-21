@@ -1,5 +1,7 @@
 <div id="pnlBody" class="clearfix">
-    <section id="S2013" class="divSection divSection0 divSection1177 container-fluid" data-speed="6" data-type="background">
+    <?php $topbanner = $this->db->query("SELECT * FROM tblarticle where article_id= 103")->row(); ?>
+    <?php echo $topbanner->content; ?>
+    <!-- <section id="S2013" class="divSection divSection0 divSection1177 container-fluid" data-speed="6" data-type="background">
             <div class="row">
                 <div class="col-sm-12 divPanelDrop">
                     <div class="divContainer divContainerStandard divContainer172 wow fadeIn clearfix" id="CA2028" style="" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="0" data-wow-iteration="1">
@@ -15,7 +17,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="S2016" class="divSection divSection0 divSection1178 container-fluid" data-speed="6" data-type="background">
         <div class="container">
             <div class="row">

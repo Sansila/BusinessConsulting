@@ -58,9 +58,6 @@
                                 <li>
                                     <a id="menu1002" href="<?php echo site_url('home/about')?>" target="_self"><span data-menu-hover="About Us">About Us</span></a>
                                 </li>
-                                <!-- <li>
-                                    <a id="menu2047" href="<?php echo site_url('home/news')?>" target="_self"><span data-menu-hover="News">News</span></a>
-                                </li> -->
                                 <li>
                                     <a id="menu1003" href="<?php echo site_url('home/contact')?>" target="_self"><span data-menu-hover="Contact Us">Contact Us</span></a>
                                 </li>
@@ -77,9 +74,6 @@
                                 <li>
                                     <a id="menu1002" href="<?php echo site_url('home/about')?>" target="_self"><span data-menu-hover="About Us">About Us</span></a>
                                 </li>
-                                <!-- <li>
-                                    <a id="menu2047" href="<?php echo site_url('home/news')?>" target="_self"><span data-menu-hover="News">News</span></a>
-                                </li> -->
                                 <li>
                                     <a id="menu1003" href="<?php echo site_url('home/contact')?>" target="_self"><span data-menu-hover="Contact Us">Contact Us</span></a>
                                 </li>
@@ -100,16 +94,16 @@
                 <div class="divHeaderMidMenu">
                     <div class="divHeaderMidMenu d-none d-sm-none d-md-block d-lg-block d-xl-block">
                         <ul>
-                            <li class="">
+                            <li>
                                 <a id="menu2" href="<?php echo site_url('home/index')?>" target="_self"><span data-menu-hover="Business Consulting">Business Consulting</span></a>
                             </li>
-                            <li class="">
+                            <li>
                                 <a id="menu3" href="<?php echo site_url('home/assignment')?>" target="_self"><span data-menu-hover="Assignments &amp; Liquidations">Assignments &amp; Liquidations</span></a>
                             </li>
-                            <li class="">
+                            <li>
                                 <a id="menu4" href="<?php echo site_url('home/financial')?>" target="_self"><span data-menu-hover="Financial Management">Financial Management</span></a>
                             </li>
-                            <li class="">
+                            <li>
                                 <a id="menu5" href="<?php echo site_url('home/intellectual')?>" target="_self"><span data-menu-hover="Intellectual Property">Intellectual Property</span></a>
                             </li>
                         </ul>

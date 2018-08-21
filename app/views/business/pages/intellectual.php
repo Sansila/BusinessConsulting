@@ -1,5 +1,7 @@
 <div id="pnlBody" class="clearfix">
-    <section id="S2017" class="divSection divSection0 divSection1180 container-fluid" data-speed="6" data-type="background">
+    <?php $topbanner = $this->db->query("SELECT * FROM tblarticle where article_id= 106")->row(); ?>
+    <?php echo $topbanner->content; ?>
+    <!-- <section id="S2017" class="divSection divSection0 divSection1180 container-fluid" data-speed="6" data-type="background">
         <div class="">
             <div class="row">
                 <div class="col-sm-12 divPanelDrop">
@@ -16,7 +18,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="S2018" class="divSection divSection0 divSection26 container-fluid" data-speed="6" data-type="background">
         <div class="container">
             <div class="row">

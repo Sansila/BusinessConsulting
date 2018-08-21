@@ -10,11 +10,11 @@ class Home extends CI_Controller
 	}
 	 public function index()
     {
-        $datas['blogTop'] = $this->page_model->getBlogTopPost();
-        $datas['blogExecution'] = $this->page_model->getExecutionBlog();
-
+        // $datas['blogTop'] = $this->page_model->getBlogTopPost();
+        // $datas['blogExecution'] = $this->page_model->getExecutionBlog();
+        // $data['loadBusinessConsultant'] =$this->page_model->getBusinessConsultantPage();
         $this->load->view('business/templates/header');
-        $this->load->view('business/pages/index',$datas);
+        $this->load->view('business/pages/index');
         $this->load->view('business/templates/footer');
     }
     function assignment()

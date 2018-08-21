@@ -5,19 +5,23 @@
 class Page_model extends CI_Model
 {
 	
-	function getBlogTopPost()
-	{
-		// $query = $this->db->query("SELECT * FROM tblarticle as a left join tblgallery as b on a.article_id = b.article_id WHERE a.menu_id = 89 ")->row_array();
-		$query = $this->db->query("SELECT * FROM tblarticle as a 
-                         join tblgallery as g on a.article_id = g.article_id
-                        WHERE a.menu_id = 89 AND a.is_active = 1 ")->row();
-		return $query;
-	}
-	function getExecutionBlog()
-	{
-		$query = $this->db->query("SELECT * FROM tblarticle WHERE menu_id = 90 AND is_active = 1")->row();
-		return $query;
-	}
+	// function getBlogTopPost()
+	// {
+	// 	// $query = $this->db->query("SELECT * FROM tblarticle as a left join tblgallery as b on a.article_id = b.article_id WHERE a.menu_id = 89 ")->row_array();
+	// 	$query = $this->db->query("SELECT * FROM tblarticle as a 
+ //                         join tblgallery as g on a.article_id = g.article_id
+ //                        WHERE a.menu_id = 89 AND a.is_active = 1 ")->row();
+	// 	return $query;
+	// }
+	// function getExecutionBlog()
+	// {
+	// 	$query = $this->db->query("SELECT * FROM tblarticle WHERE menu_id = 90 AND is_active = 1")->row();
+	// 	return $query;
+	// }
+
+	// function getBusinessConsultantPage(){
+		
+	// }
 
 	function getassignmentBlogTop()
 	{
